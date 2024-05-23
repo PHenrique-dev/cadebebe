@@ -1,0 +1,34 @@
+.rightSide {
+    background-color: #A5C8CA;
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    padding: 10px 45px;
+}
+.rightSide button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.rightSide svg {
+    font-size: 60px;
+}
+.rightSide a{
+  color: #586875;
+  text-decoration: none;
+  margin: 0 30px;
+  font-weight: bold;
+}
+.rightSide a:hover {
+    cursor: pointer;
+    color: #2f373d;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .rightSide a{
+        margin: 0 20px
+    }
+  }

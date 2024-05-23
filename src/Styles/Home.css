@@ -1,0 +1,35 @@
+.home img{
+    display: block; 
+    width: 100%;
+    height: auto; 
+}
+.home h1{
+    position: absolute;
+    top: 80%; 
+    left: 25%;
+    font-size: 3.5rem;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-family: "Poetsen One", sans-serif;
+}
+.home a{
+    text-decoration: none;
+    position: absolute;
+    top: 130%; 
+    left: 75%; 
+    font-size: 1.8rem;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    color: #586875;
+    background-color:#A5C8CA;
+    border-radius: 15px;
+    border: 3px solid black ;
+    transition: 1s;
+}
+.home a:hover{
+    background-color: transparent;
+    border: 3px solid black ;
+    transform: scale(1.1);
+}
