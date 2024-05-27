@@ -32,6 +32,7 @@ function Navbar() {
             </button>
           </form>
         </div>
+  
       </div>
     </div>
   );

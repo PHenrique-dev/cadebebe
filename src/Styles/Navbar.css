@@ -47,7 +47,6 @@
     color: #586875;
     font-size: 20px;
 }
-
 .navbar a {
     color: #586875;
     text-decoration: none;
@@ -115,11 +114,5 @@
     }
     .navbar .leftSide img{
         padding-right: 0px;
-    }
-}
-
-@media only screen and (min-width: 600px) {
-    .hiddenLinks {
-        display: none;
     }
 }
