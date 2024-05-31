@@ -70,7 +70,7 @@
     .botao a {
         font-size: 1.5rem;
         padding: 6px 12px;
-        margin-left: 30%;
+        margin-left: 28%;
     }
     .conteudo {
         flex-direction: column;
@@ -78,8 +78,7 @@
         text-align: center;
     }
     .texto {
-        margin-left: 0;
-        font-size: .9rem;
+        font-size: 1.3rem;
         text-align: justify;
     }
     .imagem {
