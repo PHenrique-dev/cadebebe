@@ -27,7 +27,8 @@ function Navbar() {
               onChange={(e) => setSearch(e.target.value)}
               value={search}
             />
-            <button type="submit" className="psq">
+            <button type="submit" className="psq" onSubmit={handleSubmit} onChange={(e) => setSearch(e.target.value)}
+              value={search}>
               <Link to="/results"><BiSearchAlt2 /></Link>
             </button>
           </form>

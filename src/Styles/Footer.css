@@ -23,7 +23,7 @@
 @media only screen and (max-width: 600px) {
   .socialMedia svg {
     font-size: 40px;
-    padding-top: 5px;
+    padding-top: 15px;
   }
   .footer {
     height: 75px;
