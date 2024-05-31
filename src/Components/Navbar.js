@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Logo from "../Assets/435762163_2822109891280408_7450111231118052636_n-removebg-preview.png";
-import { useNavigate, Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { BiSearchAlt2 } from "react-icons/bi";
 import "../Styles/Navbar.css";
 
@@ -25,11 +25,9 @@ function Navbar() {
               type="text"
               placeholder="O que você deseja?"
               onChange={(e) => setSearch(e.target.value)}
-              value={search}
-            />
-            <button type="submit" className="psq" onSubmit={handleSubmit} onChange={(e) => setSearch(e.target.value)}
-              value={search}>
-              <Link to="/results"><BiSearchAlt2 /></Link>
+              value={search}/>
+            <button type="submit" className="psq">
+              <BiSearchAlt2 />
             </button>
           </form>
         </div>
