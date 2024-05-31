@@ -7,19 +7,19 @@
     padding-left: 50px;
     padding: 10px 45px;
 }
-.rightSide button {
+.rightSide .links {
     background-color: transparent;
     border: none;
-    color: white;
     cursor: pointer;
 }
 .rightSide svg {
-    font-size: 60px;
+    font-size: 200px;
 }
 .rightSide a{
   color: #586875;
   text-decoration: none;
   margin: 0 30px;
+  padding-top: 10px;
   font-weight: bold;
 }
 .rightSide a:hover {

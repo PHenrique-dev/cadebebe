@@ -15,7 +15,7 @@
   }
   
   .catList {
-    width: 70vw;
+    width: 100vw;
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -23,13 +23,13 @@
   }
   .catItem {
     border-radius: 15px;
-    width: 320px;
+    width: 250px;
     background-color: #2f373d;
     color: #A5C8CA;
-    height: 380px;
+    height: 420px;
     margin: 20px;
-    margin-bottom: 100px;
-    padding: 10px;
+    margin-bottom: 50px;
+    padding: 50px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   }
   .catItem:hover {
@@ -39,9 +39,9 @@
     transform: scale(1.1);
   }
   .catItem .imagem{
-    margin-left: 60px;
-    width: 150px;
-    height: 285px;
+    margin-left: 30px;
+    width: 200px;
+    height: 300px;
   }
   .catItem div {
     border-top-left-radius: 15px;
@@ -53,13 +53,13 @@
     background-size: cover;
   }
   .catItem h1{
-    margin-top: -20px;
-    font-size: 30px;
+    margin-top: 15px;
+    font-size: 25px;
     margin-left: 20px;
   }
   .catItem p{
     margin-top: -10px;
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 30px;
   }
   
